@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import logo from "/src/assets/images/logo.png";
+
 function Navbar() {
     return (
         <>
            <nav className="navbar bg-body-tertiary" >
-  <div className="container-fluid" style={{ backgroundColor: "#646262" }} >
+  <div className="container-fluid" style={{ backgroundColor: "#c5c3c3" }} >
     <a className="navbar-brand" href="#">
       <img src={logo} alt="Logo"  width="80" height="80" className="d-inline-block align-text-top"/>
     </a>
@@ -16,6 +17,7 @@ function Navbar() {
     </ul>
   </div>
 </nav>
+
         </>
     )
 }

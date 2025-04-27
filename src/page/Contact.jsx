@@ -2,7 +2,7 @@ function Contact(){
     return(
 
         <>
-       <section style={{ padding: "40px", fontFamily: "Arial, sans-serif" }}>
+       <section style={{ padding: "40px", fontFamily: "Arial, sans-serif", backgroundColor: "#f4f4f4" }}>
   <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
     <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
       We'd Love to Hear From You
